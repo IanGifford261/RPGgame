@@ -1,12 +1,14 @@
 ﻿using System;
+using RPGgame.Classes;
 
 namespace RPGgame
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            
+            Console.WriteLine(" Its Crushing Time");
+
         }
     }
 }
