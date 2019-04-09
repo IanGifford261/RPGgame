@@ -4,7 +4,13 @@ using System.Text;
 
 namespace RPGgame.Classes
 {
-    class Warrior
+    public abstract class Warrior
     {
+        public abstract int Strike();
+
+        public virtual int Devestate()
+        {
+            return 9001;
+        }
     }
 }

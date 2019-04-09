@@ -4,7 +4,14 @@ using System.Text;
 
 namespace RPGgame.Classes
 {
-    class Paladin
+    public abstract class Paladin
     {
+        public abstract int Crush();
+        public abstract int Heal();
+
+        public virtual int Obliterate()
+        {
+            return 14000;
+        }
     }
 }
