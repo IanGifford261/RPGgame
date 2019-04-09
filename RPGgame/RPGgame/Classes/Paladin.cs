@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RPGgame.Classes
 {
-    public abstract class Paladin
+    public abstract class Paladin : Race
     {
         public abstract int Crush();
         public abstract int Heal();

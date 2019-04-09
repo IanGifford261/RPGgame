@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RPGgame.Classes
 {
-    public abstract class Warrior
+    public abstract class Warrior : Race
     {
         public abstract int Strike();
 
